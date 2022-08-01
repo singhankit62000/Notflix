@@ -1,9 +1,9 @@
 import React from 'react';
 import "./HomeScreen.css";
-import Nav from './Nav';
-import Banner from './Banner';
-import Row from './Row'
-import requests from './Requests';
+import Nav from '../Nav';
+import Banner from '../Banner';
+import Row from '../Row'
+import requests from '../Requests';
 
 function HomeScreen() {
   return (
@@ -34,7 +34,7 @@ function HomeScreen() {
         fetchUrl={requests.fetchComedyMovies}
       />
       <Row 
-        title='Harry Movies'
+        title='Horror Movies'
         fetchUrl={requests.fetchHorrorMovies}
       />
       <Row 
